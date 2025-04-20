@@ -1,6 +1,6 @@
 // Váriaveis principais do jogo
 let respostaCorreta;
-let pontuação = 0;
+let pontuacao = 0;
 let modoAtual = 'basico';
 
 // Função que inicia o jogo com o modo escolhido
