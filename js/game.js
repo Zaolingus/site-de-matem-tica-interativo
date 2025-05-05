@@ -21,8 +21,8 @@ function novaPergunta(){
 }
 
 function gerarNumeros(modo){
-    let num1 =Math.floor(Math.random()=10) + 1;
-    let num2 =Math.floor(Math.random()=10) + 1;
+    let num1 =Math.floor(Math.random()*10) + 1;
+    let num2 =Math.floor(Math.random()*10) + 1;
 
     if (modo === 'desafio') {
         num1 *= 2;
